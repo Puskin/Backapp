@@ -5,10 +5,10 @@ gem 'rails', '3.0.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
+gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3' 
 
-gem 'resque'      # uncomment this line if you use Resque
-gem 'hirefire'
+gem 'redis'
+gem 'resque', :require => "resque/server"
 
 
 # Use unicorn as the web server
