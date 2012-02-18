@@ -7,6 +7,10 @@ gem 'rails', '3.0.11'
 
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
+gem 'resque'      # uncomment this line if you use Resque
+gem 'hirefire'
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
