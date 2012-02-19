@@ -1,5 +1,10 @@
-Backapp::Application.routes.draw do
-  resources :users
+Backapp::Application.routes.draw do               
+  
+  resources :snippets
+  resources :users                       
+
+  root :to => "users#index"
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
