@@ -45,7 +45,5 @@ Backapp::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :notify                            
-  
-  ENV["REDISTOGO_URL"] = 'redis://redistogo:ecb8e43e5754edf6dad7a7e1be73724b@perch.redistogo.com:9854/' 
+  config.active_support.deprecation = :notify
 end
